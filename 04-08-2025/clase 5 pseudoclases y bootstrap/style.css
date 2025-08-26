@@ -1,0 +1,167 @@
+
+body{
+    background-color: rgb(203, 200, 200);
+}
+
+/*header*/
+
+.navcustom{
+    height: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*header*/
+
+/*main*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main*/
+/*seccion*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*seccion*/
+
+
+/*main*/
+.hero{
+    background-image: url("./imagenes/taller_de_mando_xbox_y_ps5.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height:28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-size: 1.5rem;
+    color: bisque;
+    text-align: center;
+    
+}
+
+.carrusel{
+    display: none;
+}
+
+.xboxcristal{
+    display: flex;
+    flex-direction: column;
+   
+  
+    
+    }
+
+
+
+/*footer*/
+
+
+.footer_title{
+    text-align: center;
+    font-size: 1.1rem;
+  
+}
+
+
+
+/*footer*/
+
+
+
+
+/*tamaños de pantalla*/
+
+
+ @media (min-width: 576px) {
+    
+ }
+     
+
+
+
+@media (min-width: 768px) {
+
+    .carrusel{
+        display:block; 
+    }
+    .hero{
+        display:none;
+        background-size:cover;
+    }
+
+    .navcustom{
+        height: 5rem;
+    }
+     .xboxcristal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0rem;
+        
+    }
+
+ 
+   
+}
+
+
+
+@media (min-width: 992px) { 
+
+ }
+
+
+@media (min-width: 1200px) {
+
+ }
+
+@media (min-width: 1400px) { 
+
+} 
